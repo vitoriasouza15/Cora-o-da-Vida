@@ -1,0 +1,35 @@
+body {
+    background-color: #d30202;
+    color: white;
+    font-family: "Roboto Mono", monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+}
+
+button {
+    background-color: #fcfcfc;
+    color: rgb(0, 0, 0);
+    font-family: "Roboto Mono", monospace;
+    font-size: 18px;
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display: block;
+}
+
+main {
+    text-align: center;
+    max-width: 90%;
+    font-size: 18px;
+}
+
+img {
+    max-width: 70%;
+}
